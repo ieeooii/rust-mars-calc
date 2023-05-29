@@ -2,7 +2,6 @@ use std::io;
 
 fn main() {
     let mut input = String::new();
-    let mut s = input;
     io::stdin().read_line(&mut input);
     let mars_weight = calculate_weight_on_mars(100.0);
     println!("Weight on Mars: {}kg", mars_weight);
